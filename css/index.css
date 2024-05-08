@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding-top: .5%;
+    background-color: #F2F2F2;
+    height: 50px;
+    display: flex;
+    font-size: 10px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20% ;
+}
+
+header nav form{
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    border-bottom: 1px solid black;
+}
+
+header nav form input{
+    background-color: #F2F2F2;
+    border: none;
+}
+
+header nav ul .id{
+    padding-right: 20px;
+}
+
+header nav ul .first{
+    padding-left: 50px;
+}
+
+header nav ul .li{
+    padding-right: 60%;
+}
+
+header nav .fa-brands{
+    padding-right: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+.intro {
+    border: 1px solid gray;
+    height: 100vh;
+}
+
+.sec {
+    border: 1px solid gray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    border: 1px solid gray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.relax {
+    border: 1px solid gray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.relax div {
+    display: block;
+    text-align: center;
+}
+
+.relax div h1 , p {
+    margin-bottom: 16px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about div {
+    margin : 50px;
+}
+
+.about div h1 {
+    margin-bottom: 16px;
+}
+
+.about div .abt {
+    margin-right: 10px;
+    line-height: 20px;
+}
+
+.about img {
+    margin-right: 50px;
+    width: 50%;
+}
+
+.container {
+    margin-top: 160px;
+    display: block;
+    text-align: center;
+}
+
+.container h1 , h3 {
+    margin: 2%;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container p, ul{
+    margin-top: 2%;
+    font-size: 1.5em;
+}
+
+.form {
+    border: 1px solid gray;
+    height: 100vh;
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.form input {
+    margin-bottom: 10px;
+    padding: 7px 12px;
+    padding-right: 300px;
+    margin-left: 70px;
+}
+
+.form textarea {
+    margin-bottom: 10px;
+    padding: 7px 12px;
+    padding-right: 300px;
+    height: 140px;
+    margin-top: 33px;
+}
+
+.form button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.form h1 , p{
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    padding: 10px 0px;
+    background-color: #F2F2F2;
+    color: black;
+    height: 170px;
+}
+
+footer p{
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    margin-top: 60px;
+}
+
+footer .all{
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.icon a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+#intro {
+    background-repeat: round;
+    background-image: url(../image/5bfb6f_26f1a5c736e544e09c63c82a4c792645~mv2_d_3839_1306_s_2.webp);
+    background-size: 210dvh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
